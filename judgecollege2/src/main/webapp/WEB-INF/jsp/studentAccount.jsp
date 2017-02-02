@@ -28,9 +28,8 @@
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                     <ul class="nav navbar-nav">
                       <li><a href="student">Home</a></li>
-                      <li><a href="#">Messages</a></li>
+                      <li><a href="#">Messages <span class="badge">3</span></a></li>
                       <li class="active"><a href="#">My Account</a></li>
-                      <li><a href="report-issue">Report Issue</a></li>
                     </ul>
                     <!--  form class="navbar-form navbar-left" role="search">
                       <div class="form-group">
