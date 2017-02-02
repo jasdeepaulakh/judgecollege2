@@ -34,5 +34,10 @@ public class MainController {
 		return "professor";
 	}
 	
+	@RequestMapping("/report-issue")
+	public String issuePage(){
+		return "reportIssue";
+	}
+	
 
 }

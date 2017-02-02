@@ -31,6 +31,7 @@
                       <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
                       <li><a href="#">Messages</a></li>
                       <li><a href="student-account">My Account</a></li>
+                      <li><a href="report-issue">Report Issue</a></li>
                     </ul>
                     
                     <ul class="nav navbar-nav navbar-right">
@@ -58,6 +59,8 @@
 		<div class="col-lg-3">
             <div class="bs-component">
               <div class="well">
+              <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" style="width:100px;height:100px;">
+                <br></br>
                 <p><b>Personal details</b></p>
                 <p>First Name: Will</p>
                 <p>Last Name: Byers</p>
@@ -115,6 +118,10 @@
 										<tr>
 											<td><b>Postcode:</b></td>
 											<td>IL3</td>
+										</tr>
+										<tr>
+											<td><b>Next of Kin:</b></td>
+											<td>Mother</td>
 										</tr>
 									  </tbody>
 								</table>
@@ -177,22 +184,29 @@
 		              <table class="table table-striped table-hover ">
 		                <thead>
 		                  <tr>
+		                    <th>Course Code</th>
 		                    <th>Course</th>
 		                    <th>Grade</th>
 		                  </tr>
 		                </thead>
 		                <tbody>
 		                  <tr>
+		                  	<td>BUS001</td>
 		                    <td>Business Module 1</td>
 		                    <td>55%</td>
+		                    <td><a href="#">View Feedback</a>
 		                  </tr>
 		                  <tr>
+		                    <td>BUS002</td>
 		                    <td>Business Module 2</td>
 		                    <td>68%</td>
+		                    <td><a href="#">View Feedback</a>
 		                  </tr>
 		                  <tr>
+		                    <td>BUS003</td>
 		                    <td>Business Module 3</td>
 		                    <td>74%</td>
+		                    <td><a href="#">View Feedback</a>
 		                  </tr>
 		                </tbody>
 		              </table> 

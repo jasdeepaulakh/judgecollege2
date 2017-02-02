@@ -9,7 +9,7 @@
 	<title>Welcome</title> 
 	           
 	<link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css"> 
-    
+           
 </head>      
 <body> 
 <!-- ******Navigation******* -->
@@ -27,31 +27,35 @@
                   </div>
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                     <ul class="nav navbar-nav">
-                      <li><a href="student">Home</a></li>
+                      <li><a href="student">Home </a></li>
                       <li><a href="#">Messages</a></li>
-                      <li class="active"><a href="#">My Account</a></li>
-                      <li><a href="report-issue">Report Issue</a></li>
+                      <li><a href="student-account">My Account</a></li>
+                      <li class="active"><a href="report-issue">Report Issue<span class="sr-only">(current)</span></a></li>
                     </ul>
-                    <!--  form class="navbar-form navbar-left" role="search">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                      </div>
-                      <button type="submit" class="btn btn-default">Submit</button>
-                    </form-->
+                    
                     <ul class="nav navbar-nav navbar-right">
                       <li><a href="home">Log out</a></li>
                     </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div>
+                      <button type="submit" class="btn btn-default">Search</button>
+                    </form>
                   </div>
                 </div>
               </nav>
             <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
-<!-- ******Page Start******* -->
 	<div class="container">
 		<div class="page-header" id="banner">
-			<div class="jumbotron"> 
-				<h1>Your Account</h1> 
-				<p>Edit Account information here!</p> 
-			</div> 
+			<div class="col-lg-12">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-warning">
+                <h4>Issue Reported</h4>
+                <p>You're issue has been logged and an admin will be in touch</p>
+              </div>
+            <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
+          </div>
 		</div>
 	</div>
 </body> 
