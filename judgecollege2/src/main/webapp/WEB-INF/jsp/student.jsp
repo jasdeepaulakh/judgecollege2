@@ -131,6 +131,7 @@
 						</div>
                 </div>
                 <div class="tab-pane fade" id="courseDetails">
+                <br></br>
                   <c:forEach items="${studentCourses}" var="studentCourse">
 	                  	<p>${studentCourse}</p>
 	              </c:forEach>
@@ -194,19 +195,39 @@
 		                  	<td>BUS001</td>
 		                    <td>Business Module 1</td>
 		                    <td>55%</td>
-		                    <td><a href="#">View Feedback</a>
+		                    <td><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">View Feedback</button>
+								  <!-- Modal -->
+								  <div class="modal fade" id="myModal" role="dialog">
+								    <div class="modal-dialog">
+								      <!-- Modal content-->
+								      <div class="modal-content">
+								        <div class="modal-header">
+								          <button type="button" class="close" data-dismiss="modal">&times;</button>
+								          <h4 class="modal-title">Feedback</h4>
+								        </div>
+								        <div class="modal-body">
+								          <p>Well done.</p>
+								        </div>
+								        <div class="modal-footer">
+								          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								        </div>
+								      </div>
+								      
+								    </div>
+								  </div>
+			                 </td>
 		                  </tr>
 		                  <tr>
 		                    <td>BUS002</td>
 		                    <td>Business Module 2</td>
 		                    <td>68%</td>
-		                    <td><a href="#">View Feedback</a>
+		                    <td><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">View Feedback</button></td>
 		                  </tr>
 		                  <tr>
 		                    <td>BUS003</td>
 		                    <td>Business Module 3</td>
 		                    <td>74%</td>
-		                    <td><a href="#">View Feedback</a>
+		                    <td><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">View Feedback</button></td>
 		                  </tr>
 		                </tbody>
 		              </table> 
