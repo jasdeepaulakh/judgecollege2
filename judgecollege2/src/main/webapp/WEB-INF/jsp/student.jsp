@@ -206,7 +206,7 @@
 								          <h4 class="modal-title">Feedback</h4>
 								        </div>
 								        <div class="modal-body">
-								          <p>Well done.</p>
+								          <p>Well done. Excellent work</p>
 								        </div>
 								        <div class="modal-footer">
 								          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
