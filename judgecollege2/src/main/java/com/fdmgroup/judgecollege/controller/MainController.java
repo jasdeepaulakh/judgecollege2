@@ -29,5 +29,10 @@ public class MainController {
 		return "error";
 	}
 	
+	@RequestMapping("/professor")
+	public String professorPage(){
+		return "professor";
+	}
+	
 
 }

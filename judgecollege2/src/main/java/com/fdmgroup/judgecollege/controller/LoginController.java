@@ -28,6 +28,12 @@ public class LoginController extends HttpServlet{
 			System.out.println("STUDENT PAGE");
 			return;
 		}
+		else if(un.equals("professor") && pw.equals("professor"))
+		{
+			response.sendRedirect("professor");
+			System.out.println("PROFESSOR PAGE");
+			return;
+		}
 		else
 		{
 			response.sendRedirect("error");
